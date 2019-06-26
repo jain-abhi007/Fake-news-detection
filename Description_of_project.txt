@@ -1,0 +1,18 @@
+This is a Machine Learning Project,Which detects the trueness probability of certain statement.
+
+The training of model is done by creating our own dataset, which is as follows:
+           - labelled/Unlabelled data is taken from kaggle
+		   - Data is scrapped from google news feed-(news Hedaings) -- using BeautifulSoup4
+		   - Data is scrapped from legit Twitter news feed- (top tweets) -- using Selenium-web driver
+		   - initially the unlabelled data is labelled as True news.
+     *The training dataset should consist of both True news and Fake news for proper learning of the model. therefore we create our own fake news.
+	       - we used Wordnet Python library for crating the fake news, which will replace particular words from the original true statement by
+		     certain antonyms , thus making the statement negative and labelled as fake.
+
+We Used 3 Algorithms for training the model, and Word2Vec trained model for converting text to numeric vector of 1*300 dimensions.
+     *The Algorithms used are as follows-
+	       - LR (Logistic Regression).
+		   - SVM (Supprt vector machine Classifier).
+		   - Frequency based algorithm.
+		   
+The model is finally trained on 25k training examples.
