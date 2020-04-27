@@ -10,4 +10,4 @@ We used the following Tools/Technology for the implementation of the model:
 - Word2Vec(Text8 and GoogleNews trained Model)
 - SVM
 - LR
-- Frequesncy Based Algorithm
+- Frequency Based Algorithm
